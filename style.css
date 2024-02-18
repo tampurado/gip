@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css?family=Pixelify+Sans&display=swap');
+
+.paper {
+    padding: 100px 100px;
+}
+
+body {
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(2.jpg);
+    background-size: 800px;
+    background-position: center center;
+    
+}
+.paper {
+
+    position: absolute;
+    background-image:url('5.jpg') ;
+    background-size: contain;
+    background-position: center center;
+    padding: 20px 100px;
+    transform: rotateZ(-5deg);
+    box-shadow: 1px 15px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+.paper.palo {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    border-radius:
+}
+
+.paper.nom {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    border-radius:
+}
+
+.paper.kits {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    border-radius:
+}
+
+.paper.kagat {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    border-radius:
+}
+
+.paper.cat {
+    position: absolute;
+    width: 220px;
+    height: 200px;
+    padding: 0;
+    border-radius:
+}
+
+.paper.heart {
+    position: absolute;
+    width: 230px;
+    height: 200px;
+    padding: 0;
+    border-radius:
+}
+
+.paper.image {
+    padding: 30px;
+}
+
+.paper.image p{
+    font-size: 30px;
+}
+
+img {
+    max-height: 200px;
+    width: 100px;
+    user-select: none;
+
+}
+
+.paper.palo::after {
+    content: "joke paluin kita e";
+    font-size: 20px;
+    background-image: url(tsi.jpg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 10;
+}
+
+.paper.nom::after {
+    content: " tara nomi na";
+    font-size: 30px;
+    background-image: url(nomi.jpg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 10;
+}
+
+.paper.kits::after {
+    content: "";
+    background-image: url(cat5.jpg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 10;
+}
+
+.paper.cat::after {
+    content: "";
+    background-image: url(cat3.jpg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 250px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 10;
+}
+
+.paper.kagat::after {
+    content: "";
+    background-image: url(ur\ cheeks.jpg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 250px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 10;
+}
+
+.paper.heart::after {
+    content: "";
+    background-image: url(cat.jpg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 230px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 10;
+}
+
+body {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 50px;
+    color: rgb(234, 228, 146);
+  }
+  
